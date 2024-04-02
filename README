@@ -1,0 +1,19 @@
+1.Write API to create Mentor:
+    POST=> https://node-js-day-3-task-student-mentor.onrender.com/api/Mentor/create
+   
+2.Write API to create Student:
+    POST=> https://node-js-day-3-task-student-mentor.onrender.com/api/Student/create
+
+3.Write API to Assign a student to Mentor:
+    a)Select one mentor and Add multiple Student:
+       POST=>  https://node-js-day-3-task-student-mentor.onrender.com/api/assign/to_mentor/mentorID/studentID
+
+    b)A student who has a mentor should not be shown in List:
+        GET=> https://node-js-day-3-task-student-mentor.onrender.com/api/Student/no-mentors
+
+4.Write API to Assign or Change Mentor for particular Student:
+    a)Select One Student and Assign one Mentor:
+        POST=> https://node-js-day-3-task-student-mentor.onrender.com/api/assign/to_student/mentorID/studentID
+
+5.Write API to show all students for a particular mentor:
+    GET=> https://node-js-day-3-task-student-mentor.onrender.com/api/Mentor/show_students/mentorID
